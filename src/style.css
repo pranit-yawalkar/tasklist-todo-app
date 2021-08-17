@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+body{
+    background-color: darkturquoise;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.child-div{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.child-div figure img{
+    width: 10rem;
+}
+
+.child-div figcaption{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+input{
+    margin-top: 1.5rem;
+    width: 20rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 10px;
+    -webkit-box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+    box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+input:focus,
+input:active,
+input:active:focus {
+  border: none;
+  outline: none;
+}
+
+input {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+input:focus {
+    -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+
+
+.fa{
+    margin-left: 5px;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(76, 77, 75);
+    color: white;
+    padding: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+}
+
+.fa:hover {
+    background-color: black;
+    color: white;
+}
+  
+.show-items{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.each-item {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    max-width: 20rem;
+    word-break: break-word;
+    background: wheat;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.each-item:hover{
+    background-color: rgb(255, 202, 103);
+}
+
+.fa-trash-alt {
+    margin-left: 10px;
+}
+
+.fa-edit, .fa-trash-alt{
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    width: 8rem;
+    background-color: rgb(76, 77, 75);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.btn:hover {
+    background-color: rgb(19, 19, 19);
+}
+  
