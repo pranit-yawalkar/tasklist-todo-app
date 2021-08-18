@@ -1,6 +1,8 @@
 # TaskList - A todo App created using React JS
 TaskList is a simple todo app created using React JS. This app demonstrates a basic CRUD operations. To store the data, this app uses localstorage.
 
+### Link - https://pranit-yawalkar.github.io/tasklist-todo-app/
+
 ## Available Scripts
 
 In the project directory, you can run:
